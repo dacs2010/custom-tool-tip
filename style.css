@@ -1,0 +1,17 @@
+.target {
+  background-color: rgb(225, 222, 222);
+  width: auto;
+  height: 18px;
+  text-align: center;
+}
+
+.tooltip {
+  visibility: hidden;
+  width: 100px;
+  background-color: white;
+  z-index: 1;
+}
+
+.target:hover .tooltip {
+  visibility: visible;
+}
